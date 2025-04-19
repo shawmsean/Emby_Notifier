@@ -3,7 +3,7 @@
 
 import requests, os, log
 
-TMDB_API = "https://api.themoviedb.org/3"
+TMDB_API = "https://api.tmdb.org/3"
 
 TMDB_API_TOKEN = os.getenv("TMDB_API_TOKEN")
 TMDB_IMAGE_DOMAIN = os.getenv("TMDB_IMAGE_DOMAIN", "https://image.tmdb.org")
